@@ -2,19 +2,69 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>موقع ابن ربيعة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة ابن ربيعة</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 50px; line-height: 1.6; }
-        h1 { color: #2c3e50; }
-        .content { max-width: 800px; margin: auto; background: #f9f9f9; padding: 20px; border-radius: 10px; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f1ea; /* لون ورقي مريح */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 600px;
+            border-top: 5px solid #2c3e50;
+        }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        p { font-size: 1.2rem; line-height: 1.6; }
+        .links { margin-top: 25px; }
+        .links a {
+            text-decoration: none;
+            color: white;
+            background: #2c3e50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .links a:hover { background: #34495e; }
+        .poetry {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 20px;
+            border-top: 1px dashed #ccc;
+            padding-top: 10px;
+        }
     </style>
 </head>
 <body>
-    <div class="content">
-        <h1>موقع ابن ربيعة</h1>
-        <p>مرحباً بكم في فضائي الأدبي والتقني. هنا أسجل تدويناتي وأعمالي.</p>
-        <hr>
-        <a href="blog">اقرأ تدوينتي الأولى: فاتحة الخير</a>
+    <div class="container">
+        <h1>مرحباً بكم في مدونة ابن ربيعة</h1>
+        <p>هنا تجتمع الكلمة الطيبة، والتربية القويمة، وشغف التقنية.</p>
+        
+        <div class="links">
+            <a href="blog.html">الأعمال الأدبية</a>
+            <a href="#">حقائب تربوية</a>
+            <a href="#">اتصل بي</a>
+        </div>
+
+        <div class="poetry">
+            <p>//</p>
+            <p>وَإِذا كانَتِ النُفوسُ كِباراً ... تَعِبَت في مُرادِها الأَجسامُ</p>
+            <p>//</p>
+        </div>
     </div>
 </body>
 </html>
